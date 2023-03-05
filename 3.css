@@ -1,0 +1,97 @@
+/* Set background color */
+body {
+    background-color: #ffc4c4;
+  }
+
+  nav {
+    background-color: #0099ff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #fff;
+    background-color: #0066cc;
+  }
+  
+  
+  /* Center content on the page */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the headings */
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #161616;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f1f1f;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the paragraphs */
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #222222;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the image */
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the button */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #00bcd4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0097a7;
+  }
+  
